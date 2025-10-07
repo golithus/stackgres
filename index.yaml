@@ -26,6 +26,31 @@ entries:
     urls:
     - https://github.com/golithus/stackgres/releases/download/stackgres-cluster-1.18.0-lithus1/stackgres-cluster-1.18.0-lithus1.tgz
     version: 1.18.0-lithus1
+  - apiVersion: v2
+    appVersion: 1.13.0
+    created: "2025-10-07T15:32:20.934056192Z"
+    description: StackGres Cluster
+    digest: 71d20fdb13f4ec0c43e31240ca6f9b016050e0e1df8f53fa8888584e7835003c
+    home: https://stackgres.io
+    icon: https://gitlab.com/uploads/-/system/project/avatar/12584701/logo-stackgres.png?width=64
+    keywords:
+    - stackgres
+    - postgresql
+    - postgres
+    - cluster
+    - stack
+    - opinionated
+    kubeVersion: 1.18.0-0 - 1.34.x-0
+    maintainers:
+    - email: info@ongres.com
+      name: OnGres Inc.
+      url: https://ongres.com
+    name: stackgres-cluster
+    sources:
+    - https://gitlab.com/ongresinc/stackgres
+    urls:
+    - https://github.com/golithus/stackgres/releases/download/stackgres-cluster-1.13.0-lithus1/stackgres-cluster-1.13.0-lithus1.tgz
+    version: 1.13.0-lithus1
   stackgres-operator:
   - annotations:
       charts.openshift.io/name: stackgres-operator
@@ -54,4 +79,31 @@ entries:
     urls:
     - https://github.com/golithus/stackgres/releases/download/stackgres-operator-1.18.0-lithus1/stackgres-operator-1.18.0-lithus1.tgz
     version: 1.18.0-lithus1
-generated: "2025-10-07T15:27:48.296474409Z"
+  - annotations:
+      charts.openshift.io/name: stackgres-operator
+    apiVersion: v2
+    appVersion: 1.13.0
+    created: "2025-10-07T15:32:21.121244459Z"
+    description: StackGres Operator
+    digest: 139815614e15a1fb59e339903944bbca9031661dc474a93f9019a4c2d2a0b3f8
+    home: https://stackgres.io
+    icon: https://gitlab.com/uploads/-/system/project/avatar/12584701/logo-stackgres.png?width=64
+    keywords:
+    - stackgres
+    - postgresql
+    - postgres
+    - cluster
+    - stack
+    - opinionated
+    kubeVersion: 1.18.0-0 - 1.34.x-O
+    maintainers:
+    - email: info@ongres.com
+      name: OnGres Inc.
+      url: https://ongres.com
+    name: stackgres-operator
+    sources:
+    - https://gitlab.com/ongresinc/stackgres
+    urls:
+    - https://github.com/golithus/stackgres/releases/download/stackgres-operator-1.13.0-lithus1/stackgres-operator-1.13.0-lithus1.tgz
+    version: 1.13.0-lithus1
+generated: "2025-10-07T15:32:21.121263795Z"
