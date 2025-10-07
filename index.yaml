@@ -51,6 +51,31 @@ entries:
     urls:
     - https://github.com/golithus/stackgres/releases/download/stackgres-cluster-1.18.0-SNAPSHOT/stackgres-cluster-1.18.0-SNAPSHOT.tgz
     version: 1.18.0-SNAPSHOT
+  - apiVersion: v2
+    appVersion: 1.13.0
+    created: "2025-10-07T15:27:48.151954753Z"
+    description: StackGres Cluster
+    digest: 21e0a3635c5a9686b77b4debfc0cdfbd1f734df47ca683569bffaabef4425ae8
+    home: https://stackgres.io
+    icon: https://gitlab.com/uploads/-/system/project/avatar/12584701/logo-stackgres.png?width=64
+    keywords:
+    - stackgres
+    - postgresql
+    - postgres
+    - cluster
+    - stack
+    - opinionated
+    kubeVersion: 1.18.0-0 - 1.34.x-0
+    maintainers:
+    - email: info@ongres.com
+      name: OnGres Inc.
+      url: https://ongres.com
+    name: stackgres-cluster
+    sources:
+    - https://gitlab.com/ongresinc/stackgres
+    urls:
+    - https://github.com/golithus/stackgres/releases/download/stackgres-cluster-1.13.0/stackgres-cluster-1.13.0.tgz
+    version: 1.13.0
   stackgres-operator:
   - annotations:
       charts.openshift.io/name: stackgres-operator
@@ -106,4 +131,31 @@ entries:
     urls:
     - https://github.com/golithus/stackgres/releases/download/stackgres-operator-1.18.0-SNAPSHOT/stackgres-operator-1.18.0-SNAPSHOT.tgz
     version: 1.18.0-SNAPSHOT
-generated: "2025-10-07T15:07:47.924269259Z"
+  - annotations:
+      charts.openshift.io/name: stackgres-operator
+    apiVersion: v2
+    appVersion: 1.13.0
+    created: "2025-10-07T15:27:48.296447799Z"
+    description: StackGres Operator
+    digest: 08d2a87107206687dce7d6f959bd865e59f41039cf22fdcf5e2806ba2146e77a
+    home: https://stackgres.io
+    icon: https://gitlab.com/uploads/-/system/project/avatar/12584701/logo-stackgres.png?width=64
+    keywords:
+    - stackgres
+    - postgresql
+    - postgres
+    - cluster
+    - stack
+    - opinionated
+    kubeVersion: 1.18.0-0 - 1.34.x-O
+    maintainers:
+    - email: info@ongres.com
+      name: OnGres Inc.
+      url: https://ongres.com
+    name: stackgres-operator
+    sources:
+    - https://gitlab.com/ongresinc/stackgres
+    urls:
+    - https://github.com/golithus/stackgres/releases/download/stackgres-operator-1.13.0/stackgres-operator-1.13.0.tgz
+    version: 1.13.0
+generated: "2025-10-07T15:27:48.296474409Z"
