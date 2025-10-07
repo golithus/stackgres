@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "stackgres-k8s/install/helm/**"
+      - ".github/workflows/helm-chart-release.yaml"
 
 jobs:
   release:
